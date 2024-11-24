@@ -64,8 +64,8 @@ export default function Contact() {
               <div>
                 <h3 className="text-lg font-semibold mb-1">{t('contact.address')}</h3>
                 <p className="text-gray-600">
-                  Durba, Doko, Province Haut-Uélé<br />
-                  République Démocratique du Congo (DRC)
+                  Durba, Watsa, Haut-Uélé<br />
+                  Democratic Republic of Congo (DRC)
                 </p>
               </div>
             </div>
@@ -81,7 +81,7 @@ export default function Contact() {
                   attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
                 />
                 <Marker position={position}>
-                  <Popup>PELS SARL</Popup>
+                  <Popup>PEARL SARL</Popup>
                 </Marker>
               </MapContainer>
             </div>

@@ -1,96 +1,58 @@
 import { useState, useEffect } from 'react';
-import { Service } from '../../types';
+import { useTranslation } from 'react-i18next';
+import type { Service } from '../../types';
 import { X } from 'lucide-react';
 
 interface ServiceModalProps {
+  service?: Service | null;
   isOpen: boolean;
   onClose: () => void;
-  onSave: (service: Omit<Service, 'id' | 'created_at'>) => Promise<void>;
-  service?: Service;
+  onSave: (data: Partial<Service>) => Promise<void>;
 }
 
-export default function ServiceModal({ isOpen, onClose, onSave, service }: ServiceModalProps) {
-  const [title, setTitle] = useState('');
-  const [description, setDescription] = useState('');
-  const [icon, setIcon] = useState('');
+export default function ServiceModal({ service, isOpen, onClose, onSave }: ServiceModalProps) {
+  const [formData, setFormData] = useState<Partial<Service>>({
+    title: '',
+    description: '',
+    icon: '',
+    order: 0
+  });
+  const { t } = useTranslation();
 
   useEffect(() => {
     if (service) {
-      setTitle(service.title);
-      setDescription(service.description);
-      setIcon(service.icon);
+      setFormData(service);
+    } else {
+      setFormData({
+        title: '',
+        description: '',
+        icon: '',
+        order: 0
+      });
     }
   }, [service]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    await onSave({ title, description, icon });
-    onClose();
+    await onSave(formData);
   };
 
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4">
-      <div className="bg-white rounded-lg w-full max-w-md">
-        <div className="flex justify-between items-center p-4 border-b">
-          <h2 className="text-lg font-semibold">
-            {service ? 'Edit Service' : 'Add New Service'}
+    <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+      <div className="bg-white rounded-lg p-6 w-full max-w-md">
+        <div className="flex justify-between items-center mb-4">
+          <h2 className="text-xl font-bold">
+            {service ? t('admin.services.edit') : t('admin.services.add')}
           </h2>
           <button onClick={onClose}>
-            <X className="h-5 w-5" />
+            <X className="h-6 w-6" />
           </button>
         </div>
-
-        <form onSubmit={handleSubmit} className="p-4 space-y-4">
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Title</label>
-            <input
-              type="text"
-              value={title}
-              onChange={(e) => setTitle(e.target.value)}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-yellow-500 focus:ring-yellow-500"
-              required
-            />
-          </div>
-
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Description</label>
-            <textarea
-              value={description}
-              onChange={(e) => setDescription(e.target.value)}
-              rows={4}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-yellow-500 focus:ring-yellow-500"
-              required
-            />
-          </div>
-
-          <div>
-            <label className="block text-sm font-medium text-gray-700">Icon</label>
-            <input
-              type="text"
-              value={icon}
-              onChange={(e) => setIcon(e.target.value)}
-              className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-yellow-500 focus:ring-yellow-500"
-              required
-            />
-          </div>
-
-          <div className="flex justify-end space-x-3 pt-4">
-            <button
-              type="button"
-              onClick={onClose}
-              className="px-4 py-2 text-sm font-medium text-gray-700 bg-gray-100 hover:bg-gray-200 rounded-md"
-            >
-              Cancel
-            </button>
-            <button
-              type="submit"
-              className="px-4 py-2 text-sm font-medium text-white bg-yellow-600 hover:bg-yellow-700 rounded-md"
-            >
-              Save
-            </button>
-          </div>
+        
+        <form onSubmit={handleSubmit} className="space-y-4">
+          {/* Form fields */}
         </form>
       </div>
     </div>

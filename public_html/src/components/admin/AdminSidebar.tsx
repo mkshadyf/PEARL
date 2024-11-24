@@ -1,11 +1,14 @@
 import { Link, useLocation } from 'react-router-dom';
-import { Home, Users, MessageSquare, Settings } from 'lucide-react';
+import { Home, Users, MessageSquare, Settings, FolderOpen, Handshake, Calculator } from 'lucide-react';
 
 const navigation = [
   { name: 'Dashboard', href: '/admin', icon: Home },
   { name: 'Users', href: '/admin/users', icon: Users },
   { name: 'Messages', href: '/admin/messages', icon: MessageSquare },
   { name: 'Services', href: '/admin/services', icon: Settings },
+  { name: 'Projects', href: '/admin/projects', icon: FolderOpen },
+  { name: 'Partners', href: '/admin/partners', icon: Handshake },
+  { name: 'Quote Requests', href: '/admin/quotes', icon: Calculator },
 ];
 
 export default function AdminSidebar() {

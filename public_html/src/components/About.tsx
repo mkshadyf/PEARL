@@ -30,7 +30,7 @@ export default function About() {
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="https://pearl-engineering.org/wp-content/uploads/2021/08/PELS-Profile-.pdf"
+                href="https://pearl-engineering.org/wp-content/uploads/2021/08/PEARL-Profile-.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-yellow-500 hover:bg-yellow-600"

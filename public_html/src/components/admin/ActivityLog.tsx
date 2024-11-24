@@ -35,7 +35,7 @@ export default function ActivityLog() {
 
   return (
     <div className="bg-white rounded-lg shadow p-6">
-      <h2 className="text-xl font-bold mb-4">Recent Activity</h2>
+      <h2 className="text-xl font-bold mb-4">{t('admin.dashboard.recentActivity')}</h2>
       <div className="space-y-4">
         {activities.map((activity) => (
           <div key={activity.id} className="flex items-start space-x-3">

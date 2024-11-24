@@ -2,9 +2,10 @@
   "nav": {
     "about": "About Us",
     "services": "Services",
-    "mission": "Mission & Vision",
-    "values": "Values",
-    "contact": "Contact"
+    "projects": "Projects",
+    "partners": "Partners",
+    "contact": "Contact",
+    "requestQuote": "Request a Quote"
   },
   "hero": {
     "title": "Excellence in Logistics & Engineering",
@@ -13,7 +14,7 @@
   },
   "about": {
     "title": "About Us",
-    "description": "Founded in 2020 by Mr. Jerry KOMBI, Chief Executive Officer, and Mrs. Dorcas CHITWARA, Managing Director, PEARL LOGISTICS AND CIVIL ENGINEERING SERVICES (PELS Sarl) strives to be a reference company in drilling, metal structures, civil and electrical engineering, and logistics in the Democratic Republic of Congo and Central Africa.",
+    "description": "Founded in 2020 by Mr. Jerry KOMBI, Chief Executive Officer, and Mrs. Dorcas CHITWARA, Managing Director, PEARL LOGISTICS AND CIVIL ENGINEERING SERVICES (PEARL Sarl) strives to be a reference company in drilling, metal structures, civil and electrical engineering, and logistics in the Democratic Republic of Congo and Central Africa.",
     "downloadProfile": "Download Company Profile",
     "mission": {
       "title": "Our Mission",
@@ -119,6 +120,129 @@
       "submit": "Sign in",
       "success": "Successfully logged in",
       "error": "Invalid email or password"
+    },
+    "partners": {
+      "title": "Partners",
+      "addNew": "Add Partner",
+      "edit": "Edit Partner",
+      "delete": "Delete Partner",
+      "form": {
+        "name": "Partner Name",
+        "description": "Description",
+        "websiteUrl": "Website URL",
+        "category": "Category",
+        "logo": "Partner Logo",
+        "uploadLogo": "Upload Logo",
+        "save": "Save",
+        "cancel": "Cancel",
+        "uploading": "Uploading..."
+      },
+      "confirmDelete": {
+        "title": "Delete Partner",
+        "message": "Are you sure you want to delete this partner?"
+      },
+      "createSuccess": "Partner created successfully",
+      "updateSuccess": "Partner updated successfully",
+      "deleteSuccess": "Partner deleted successfully",
+      "fetchError": "Error fetching partners",
+      "saveError": "Error saving partner",
+      "deleteError": "Error deleting partner"
+    },
+    "quotes": {
+      "title": "Quote Requests",
+      "status": {
+        "pending": "Pending",
+        "reviewed": "Reviewed",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      },
+      "approve": "Approve",
+      "reject": "Reject",
+      "markReviewed": "Mark as Reviewed",
+      "statusUpdateSuccess": "Status updated successfully",
+      "statusUpdateError": "Error updating status",
+      "fetchError": "Error fetching quote requests"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch with us for any inquiries or support",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "addressLine1": "Durba, Doko, Province Haut-Uélé",
+    "addressLine2": "Democratic Republic of Congo (DRC)",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "Enter your email address",
+      "message": "Message",
+      "messagePlaceholder": "Write your message here...",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "description": "PEARL SARL is your trusted partner in logistics and engineering services across Central Africa. We deliver excellence in drilling, metal structures, civil engineering, and comprehensive logistics solutions.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact Info",
+    "certifications": "Certifications & Memberships",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "projects": {
+    "title": "Our Projects",
+    "subtitle": "Discover our successful project implementations across various sectors",
+    "categories": {
+      "all": "All Projects",
+      "mining": "Mining",
+      "construction": "Construction",
+      "logistics": "Logistics",
+      "engineering": "Engineering"
+    },
+    "status": {
+      "completed": "Completed",
+      "ongoing": "Ongoing",
+      "upcoming": "Upcoming"
+    }
+  },
+  "partners": {
+    "title": "Our Partners",
+    "subtitle": "Working together with industry leaders to deliver excellence",
+    "visitWebsite": "Visit Website",
+    "categories": {
+      "all": "All Partners",
+      "clients": "Clients",
+      "suppliers": "Suppliers",
+      "collaborators": "Collaborators"
+    }
+  },
+  "quote": {
+    "title": "Request a Quote",
+    "subtitle": "Get a customized quote for your project",
+    "submitSuccess": "Quote request submitted successfully",
+    "submitError": "Error submitting quote request",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "company": "Company Name (Optional)",
+      "serviceType": "Service Type",
+      "projectDetails": "Project Details",
+      "projectDetailsPlaceholder": "Please describe your project requirements...",
+      "budgetRange": "Budget Range (Optional)",
+      "budgetRangePlaceholder": "e.g., $10,000 - $20,000",
+      "timeline": "Preferred Timeline (Optional)",
+      "timelinePlaceholder": "e.g., Start in Q2 2024, 3 months duration",
+      "submit": "Submit Request"
+    },
+    "services": {
+      "logistics": "Logistics",
+      "drilling": "Drilling",
+      "construction": "Construction",
+      "engineering": "Engineering",
+      "other": "Other"
     }
   }
 }

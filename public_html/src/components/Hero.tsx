@@ -39,7 +39,7 @@ export default function Hero() {
             {t('hero.cta')}
           </motion.a>
           <motion.a 
-            href="https://pearl-engineering.org/wp-content/uploads/2021/08/PELS-Profile-.pdf"
+            href="https://pearl-engineering.org/wp-content/uploads/2021/08/PEARL-Profile-.pdf"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}

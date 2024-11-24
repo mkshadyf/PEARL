@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../../lib/supabase';
 import { DashboardStats } from '../../types';
-import { Users, MessageSquare, Settings, Activity } from 'lucide-react';
+import { Users, MessageSquare, Settings } from 'lucide-react';
 import LoadingSpinner from '../common/LoadingSpinner';
 import ActivityLog from './ActivityLog';
 
