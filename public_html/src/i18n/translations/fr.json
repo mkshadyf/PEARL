@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "about": "À propos",
+    "services": "Services",
+    "mission": "Mission & Vision",
+    "values": "Valeurs",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Excellence en Logistique & Ingénierie",
+    "subtitle": "Votre partenaire de confiance en Afrique centrale pour la logistique, le génie civil et les services de construction",
+    "cta": "Commencer"
+  },
+  "about": {
+    "title": "À propos de nous",
+    "description": "Fondée en 2020 par M. Jerry KOMBI, Chief Executive Officer et Mme Dorcas CHITWARA, Managing Director, PEARL LOGISTICS AND CIVIL ENGINEERING SERVICES, PELS Sarl, se veut être une entreprise de référence dans les forages, les structures métalliques, les travaux de génie civil et électrique et la logistique en République Démocratique du Congo en particulier et en Afrique Centrale en général.",
+    "downloadProfile": "Télécharger le Profil de l'Entreprise",
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Nous visons l'excellence tout en valorisant à la fois nos clients et notre force de travail, et en observant de manière stricte la sécurité et l'entretien ménager de l'environnement."
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "description": "Notre engagement d'entreprise est de fournir un emploi à la jeune main-d'œuvre congolaise dans tous les domaines de l'administration, de la gestion et de l'exploitation quotidiennes des projets."
+    },
+    "values": {
+      "title": "Nos Valeurs",
+      "description": "Nous plaçons le client au centre de ce que nous faisons. Nous sommes une tradition de confiance. Nous tenons notre promesse en temps."
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Des solutions complètes pour tous vos besoins en logistique et en ingénierie",
+    "logistics": {
+      "title": "Logistique",
+      "description": "Nous offrons à nos clients des services en logistique imbattables tout en respectant le délai de livraison des marchandises."
+    },
+    "drilling": {
+      "title": "Forages",
+      "description": "Nous sommes une référence inconditionnelle dans les forages d'eau et les forges carottés car notre équipe a une expérience sur divers terrains géologiques."
+    },
+    "metalStructures": {
+      "title": "Structures métalliques",
+      "description": "Composé d'ingénieurs et techniciens expérimentés, notre équipe fournit un travail de qualité tout en vous proposant divers plans et devis adaptés à vos exigences."
+    },
+    "civilEngineering": {
+      "title": "Génie civil",
+      "description": "Des ingénieurs et architectes expérimentés sont mis à votre disposition pour la construction des grands travaux, l'élaboration des plates-formes pour les forages."
+    },
+    "wasteManagement": {
+      "title": "Recyclage des déchets",
+      "description": "Nous traitons les déchets industriels ou ménagers de produits inutilisables, principalement certains métaux, plastiques et cartons, le verre et autres."
+    },
+    "transport": {
+      "title": "Transport",
+      "description": "Nous nous chargeons du transport de vos fournitures, matériels et équipements selon le délai convenu et la destination de votre choix."
+    }
+  },
+  "stats": {
+    "years": "Années d'expérience",
+    "projects": "Projets achevés",
+    "fieldWorkers": "Travailleurs sur le terrain",
+    "officeStaff": "Personnel de bureau"
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Tableau de bord",
+      "stats": {
+        "totalUsers": "Utilisateurs totaux",
+        "messages": "Messages",
+        "services": "Services",
+        "unreadMessages": "Messages non lus"
+      },
+      "recentActivity": "Activité récente"
+    },
+    "services": {
+      "title": "Services",
+      "addNew": "Ajouter un service",
+      "edit": "Modifier le service",
+      "delete": "Supprimer le service",
+      "form": {
+        "title": "Titre",
+        "description": "Description",
+        "icon": "Icône",
+        "save": "Enregistrer",
+        "cancel": "Annuler"
+      },
+      "confirmDelete": {
+        "title": "Supprimer le service",
+        "message": "Êtes-vous sûr de vouloir supprimer ce service ?"
+      }
+    },
+    "messages": {
+      "title": "Messages",
+      "markAsRead": "Marquer comme lu",
+      "delete": "Supprimer",
+      "confirmDelete": {
+        "title": "Supprimer le message",
+        "message": "Êtes-vous sûr de vouloir supprimer ce message ?"
+      }
+    },
+    "users": {
+      "title": "Utilisateurs",
+      "addNew": "Ajouter un utilisateur",
+      "delete": "Supprimer l'utilisateur",
+      "role": "Rôle",
+      "confirmDelete": {
+        "title": "Supprimer l'utilisateur",
+        "message": "Êtes-vous sûr de vouloir supprimer cet utilisateur ?"
+      }
+    },
+    "login": {
+      "title": "Connexion Administrateur",
+      "subtitle": "Connectez-vous pour accéder au tableau de bord",
+      "email": "Adresse e-mail",
+      "emailPlaceholder": "Entrez votre email",
+      "password": "Mot de passe",
+      "passwordPlaceholder": "Entrez votre mot de passe",
+      "submit": "Se connecter",
+      "success": "Connexion réussie",
+      "error": "Email ou mot de passe invalide"
+    }
+  }
+}

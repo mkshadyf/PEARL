@@ -1,0 +1,124 @@
+{
+  "nav": {
+    "about": "About Us",
+    "services": "Services",
+    "mission": "Mission & Vision",
+    "values": "Values",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Excellence in Logistics & Engineering",
+    "subtitle": "Your trusted partner in Central Africa for logistics, civil engineering, and construction services",
+    "cta": "Get Started"
+  },
+  "about": {
+    "title": "About Us",
+    "description": "Founded in 2020 by Mr. Jerry KOMBI, Chief Executive Officer, and Mrs. Dorcas CHITWARA, Managing Director, PEARL LOGISTICS AND CIVIL ENGINEERING SERVICES (PELS Sarl) strives to be a reference company in drilling, metal structures, civil and electrical engineering, and logistics in the Democratic Republic of Congo and Central Africa.",
+    "downloadProfile": "Download Company Profile",
+    "mission": {
+      "title": "Our Mission",
+      "description": "We aim for excellence while valuing both our clients and workforce, strictly observing safety and environmental maintenance."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "Our corporate commitment is to provide employment to young Congolese workforce in all areas of administration, management, and daily project operations."
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "We place the client at the center of what we do. We are a tradition of trust. We keep our promise on time."
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions for all your logistics and engineering needs",
+    "logistics": {
+      "title": "Logistics",
+      "description": "We offer unbeatable logistics services while respecting delivery deadlines. We are the leader in logistics because we place the client at the center of what we do."
+    },
+    "drilling": {
+      "title": "Drilling",
+      "description": "We are an unconditional reference in water drilling and core drilling with experience across various geological terrains in Tanzania, East and Central Africa."
+    },
+    "metalStructures": {
+      "title": "Metal Structures",
+      "description": "Our team of experienced engineers and technicians provides quality work while offering various plans and estimates adapted to your requirements and financial means."
+    },
+    "civilEngineering": {
+      "title": "Civil Engineering",
+      "description": "Experienced engineers and architects are at your disposal for major works (roads and dams), platform development for drilling using bulldozers, and more."
+    },
+    "wasteManagement": {
+      "title": "Waste Management",
+      "description": "We process industrial or household waste from unusable products, primarily recycling certain metals, plastics, cardboard, glass, and other materials."
+    },
+    "transport": {
+      "title": "Transport",
+      "description": "We handle the transport of your supplies, materials, and equipment according to the agreed deadline and destination of your choice."
+    }
+  },
+  "stats": {
+    "years": "Years of Experience",
+    "projects": "Completed Projects",
+    "fieldWorkers": "Field Workers",
+    "officeStaff": "Office Staff"
+  },
+  "admin": {
+    "dashboard": {
+      "title": "Dashboard",
+      "stats": {
+        "totalUsers": "Total Users",
+        "messages": "Messages",
+        "services": "Services",
+        "unreadMessages": "Unread Messages"
+      },
+      "recentActivity": "Recent Activity"
+    },
+    "services": {
+      "title": "Services",
+      "addNew": "Add Service",
+      "edit": "Edit Service",
+      "delete": "Delete Service",
+      "form": {
+        "title": "Title",
+        "description": "Description",
+        "icon": "Icon",
+        "save": "Save",
+        "cancel": "Cancel"
+      },
+      "confirmDelete": {
+        "title": "Delete Service",
+        "message": "Are you sure you want to delete this service?"
+      }
+    },
+    "messages": {
+      "title": "Messages",
+      "markAsRead": "Mark as Read",
+      "delete": "Delete",
+      "confirmDelete": {
+        "title": "Delete Message",
+        "message": "Are you sure you want to delete this message?"
+      }
+    },
+    "users": {
+      "title": "Users",
+      "addNew": "Add User",
+      "delete": "Delete User",
+      "role": "Role",
+      "confirmDelete": {
+        "title": "Delete User",
+        "message": "Are you sure you want to delete this user?"
+      }
+    },
+    "login": {
+      "title": "Admin Login",
+      "subtitle": "Sign in to access the admin dashboard",
+      "email": "Email address",
+      "emailPlaceholder": "Enter your email",
+      "password": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "submit": "Sign in",
+      "success": "Successfully logged in",
+      "error": "Invalid email or password"
+    }
+  }
+}
